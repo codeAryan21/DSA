@@ -42,10 +42,11 @@ public class LongestSubArrayKSumPositive {
                 // add the current element to the subarray a[i...j-1]:
                 sum += arr[j];
                 if(sum == k){
-                    length = BinarySearch.BS2D.Math.max(length,j-i+1);
+                    length = Math.max(length,j-i+1);
                 }
             }
         }
         return length;
-    } */
+    }
+    */
 }
