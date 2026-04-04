@@ -9,7 +9,7 @@ FirstAndLastOccurrences {
         System.out.println("The first and last occurrences are: [" + ans[0] + ", " + ans[1] + "]");
 
         int []ans1 = findFirstAndLast(arr,8);
-        System.out.println("The first and last occurrences are: [" + ans[0] + ", " + ans[1] + "]");
+        System.out.println("The first and last occurrences are: [" + ans1[0] + ", " + ans1[1] + "]");
     }
 
     static int[] findFirstAndLast(int []arr,int target){
